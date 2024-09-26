@@ -72,12 +72,14 @@ nav .action .signin:hover{
     background-repeat: no-repeat;
     height: 100vh;
 }
+
 .bannercontent .bannertitle img{
     object-fit: contain;
     max-width: 40%;
 }
+
 .bannercontent{
-    padding: 15% 6%;
+    padding: 11% 6%;
 }
 
 .bannercontent .bannertitle h1{
