@@ -16,7 +16,6 @@ nav{
     display: flex;
     padding: 0px 20px;
     justify-content: space-between;
-   
 }
 
 nav .action{
@@ -41,7 +40,7 @@ nav .action .joinnow{
     background-color: rgb(241, 7, 7);
     color: #fffcfc;
     transition: 0.8ms;
- }
+}
 
 nav .action .signin{
     background-color: transparent;
