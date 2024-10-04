@@ -32,4 +32,10 @@ body::before{
 }
 .wrapper h1{
     color: azure;
+    padding-bottom: 30px;
+}
+.wrapper .email{
+    padding: 10px 40px 10px 4px;
+    background-color: #a3a3a3;
+    
 }
