@@ -39,3 +39,46 @@ body::before{
     background-color: #a3a3a3;
     
 }
+.wrapper .signin{
+    background-color: rgb(196, 25, 25);
+    color: #fff;
+    padding: 8px 40px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    width: 300px;
+    font-weight: 550;
+    margin: 20px 0px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper .signin:hover{
+    background-color: rgb(241, 7, 7);
+    color: #fffcfc;
+    transition: 0.8ms;
+}
+.wrapper .usea{
+    background-color: transparent;
+    color: #ffffff;
+    padding: 8px 4px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    font-weight: 550;
+    font-size: 14px;
+    cursor: pointer;
+    width: 300px;
+    margin: 0px 0px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.wrapper .usea:hover{
+    background-color: #575151;
+    color: #ffffff;
+    transition: 0.8ms;
+}
+.wrapper h2{
+    color: #fff;
+    text-align: center;
+    font-size: small;
+    margin: 8px;
+    font-weight: 300;
+}
