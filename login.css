@@ -35,14 +35,27 @@ body::before{
     padding-bottom: 30px;
 }
 .wrapper .email{
-    padding: 10px 40px 10px 4px;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 100%;
+    padding: 1.5rem 1rem 0.5rem 1rem;
     background-color: #a3a3a3;
-    
+    margin: 0px 0px 20px 0px;
+    filter: opacity(50%);
+}
+.wrapper .password{
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 100%;
+    padding: 1.5rem 1rem 0.5rem 1rem;
+    background-color: #a3a3a3;
+    margin: 0px 0px 20px 0px;
+    filter: opacity(50%);
 }
 .wrapper .signin{
     background-color: rgb(196, 25, 25);
     color: #fff;
-    padding: 8px 40px;
+    padding: 15px 40px;
     border-radius: 2px;
     border: none;
     cursor: pointer;
@@ -60,7 +73,7 @@ body::before{
 .wrapper .usea{
     background-color: transparent;
     color: #ffffff;
-    padding: 8px 4px;
+    padding: 15px 4px;
     border: 1px solid #fff;
     border-radius: 2px;
     font-weight: 550;
