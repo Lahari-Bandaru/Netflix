@@ -87,6 +87,22 @@ nav .action .signin:hover{
     background-repeat: no-repeat;
     height: 100vh;
 }
+.banner4{
+    background: linear-gradient(90deg,#181818 0,hsla(0,0%,9%,.987) 1.62%,hsla(0,0%,9%,.951) 3.1%,hsla(0,0%,9%,.896) 4.5%,hsla(0,0%,9%,.825) 5.8%,hsla(0,0%,9%,.741) 7.06%,hsla(0,0%,9%,.648) 8.24%,hsla(0,0%,9%,.55) 9.42%,hsla(0,0%,9%,.45) 10.58%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 14.2%,hsla(0,0%,9%,.104) 15.5%,hsla(0,0%,9%,.049) 16.9%,hsla(0,0%,9%,.013) 18.38%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWr5SWlEWRCmcv6jWxE1Fmp_TuNOxNcuzDISPERpTmcWYLkSP7sH1ibGmQATt--i-UUG8tK-8Y31mhWd2wuB3A5p0XszEBDpL6g1.jpg?r=155&quot;);
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.banner5{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRB1WgbEN9h9RjR7bmn5tvMk391mQNVWEl-7wO2yj5X7SFm_FSY9nqJCr_Z7AfSDsrhtVOIvI9S77BTLwxX6vcbu_-BVi2SqfS6M.jpg?r=587&quot;);
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 .bannercontent .bannertitle img{
     object-fit: contain;
     max-width: 40%;
