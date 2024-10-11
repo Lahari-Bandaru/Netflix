@@ -80,7 +80,7 @@ nav .action .signin:hover{
     height: 100vh;
 }
 .banner3{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRB1WgbEN9h9RjR7bmn5tvMk391mQNVWEl-7wO2yj5X7SFm_FSY9nqJCr_Z7AfSDsrhtVOIvI9S77BTLwxX6vcbu_-BVi2SqfS6M.jpg?r=587&quot;);
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfKifMxxzLJt7q_b3OcVgOhuI5bHPnJyISd1MRVhZl1NeLid_TrwhdKtpseVDTC0p1nzXNfqMPw70o1tz7reLPjv3D5D3ASF1Sqd.jpg?r=51d&quot;);
     background-size: cover;
     background-position: center center;
     max-width: 100%;
@@ -96,7 +96,54 @@ nav .action .signin:hover{
     height: 100vh;
 }
 .banner5{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRB1WgbEN9h9RjR7bmn5tvMk391mQNVWEl-7wO2yj5X7SFm_FSY9nqJCr_Z7AfSDsrhtVOIvI9S77BTLwxX6vcbu_-BVi2SqfS6M.jpg?r=587&quot;);
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeqU5y13eHjQ6rfOYnpZUi3Rs_tf8KhstGfq_LmpqDzeR0UmZ_Op7pNso4OFiL97UO-hwXayjoAue7TL_Okys9Q280u7XZJpbOle.jpg?r=834&quot;);
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.banner6{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfTgFyCbGK3DH80FtDiONt7qQx2C1AuWb_WpJQ7f0qyMyk-v_iJ3u4vugVGJllIi1iqf6Xnwv85JlsURR-ZrH9GlhDgJuQB0WXsM.jpg?r=a5a&quot;);
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.banner7{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABetUNTFdqYlbSpU2T7pOPcVB0zPFGC6H_v6jfsJNrLiektbaZuK-nATjgOyNew3yiMSH-CVPSZFFP3oac9aLM5DwUyuEVipvblNP.jpg?r=7ac&quot;);
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.banner8{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.banner9{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.banner10{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}.banner11{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
     background-size: cover;
     background-position: center center;
     max-width: 100%;
