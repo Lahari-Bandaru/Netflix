@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav .logo img{
+    object-fit: contain;
+    max-width: 12%;
+}
 .name{
     font-size: 2rem;
     font-weight: 700;
