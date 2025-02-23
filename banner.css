@@ -7,64 +7,76 @@ body{
     background-color: #222;
     color: #ffffff;
 }
-nav .logo img{
-    object-fit: contain;
-    max-width: 14%;
-}
-
-nav{
+nav {
     display: flex;
     padding: 0px 20px;
     justify-content: space-between;
+    background-color: #000;  
+    position: fixed;
 }
-
-nav .action{
+nav .logo img{
+    object-fit: contain;
+    max-width: 15%;
+    background-color: #000;
+    margin-left: 20px;
+    margin-top: 10px; 
+}
+nav .action {
     display: flex;
-    margin: 5px 20px;
+    align-items: center;
+    background-color: #000;
 }
 
-nav .action .joinnow{
-    background-color: rgb(196, 25, 25);
+nav .action h4 {
+    color: #ffffff; 
+    white-space: nowrap;  
+    font-size: 12px;
+    margin-left: 130px;  
+    font-weight: 200;
+    padding-right: 8px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .action .joinnow {
+    background-color: rgb(222, 25, 25);
     color: #fff;
-    padding: 2px 4px;
-    border-radius: 2px;
+    margin-right: 10px;
+    padding: 10px 40px;
+    border-radius: 3px;
     border: none;
+    white-space: nowrap;
     cursor: pointer;
-    font-size: 15px;
-    width: 100px;
+    font-size: 14px;
     font-weight: 550;
-    margin: 0px 0px 0px 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
- nav .action .joinnow:hover{
-    background-color: rgb(241, 7, 7);
-    color: #fffcfc;
-    transition: 0.8ms;
+
+nav .action .joinnow:hover {
+    background-color: rgb(241, 7, 7); 
+    transition: 0.3s ease-in-out;
 }
 
-nav .action .signin{
+nav .action .signin {
     background-color: transparent;
-    color: #ffffff;
-    padding: 2px 4px;
-    border: 1px solid #fff;
-    border-radius: 2px;
-    font-weight: 550;
+    color: #fff;
+    white-space: nowrap;
+    padding: 10px 30px; 
+    margin-right: 30px;
+    border: 1px solid #ffffffc4;
+    border-radius: 3px;
+    font-weight: 600;
     font-size: 14px;
     cursor: pointer;
-    width: 100px;
-    margin: 0px 0px 0px 10px;
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-nav .action .signin:hover{
-    background-color: #575151;
-    color: #ffffff;
-    transition: 0.8ms;
+nav .action .signin:hover {
+    background-color: #575151; 
+    transition: 0.3s ease-in-out;
 }
-
 .banner{
     background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)), url(https://occ-0-5261-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSzRQqMaM5IXcrgrT64Qtp3AZmvJU3mEwpA3Kiegs_qP3hMdpLLRnSZ9mVlvg8R9nO4SikNpRCvjI1gv1dsY2U7PJ75G0-WjI3Kv.jpg?r=a5a&quot`````);
-    /* background-image: url(https://occ-0-5261-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSzRQqMaM5IXcrgrT64Qtp3AZmvJU3mEwpA3Kiegs_qP3hMdpLLRnSZ9mVlvg8R9nO4SikNpRCvjI1gv1dsY2U7PJ75G0-WjI3Kv.jpg?r=a5a&quot); */
+    /* background-image: url(); */
     background-size: cover;
     background-position: center center;
     max-width: 100%;
@@ -426,23 +438,23 @@ nav .action .signin:hover{
     background-repeat: no-repeat;
     height: 100vh;
 }
-.underParis{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbHIvh11O3PluK_6fjW5L5Orsog2BpO3MjoMRjVihpo2wMntZiYp6B9sBEP5w5pDFFavlRJA0PS-bKZbm2kRPSzE-qihWtpBtflv.jpg?r=04d&quot;);
+.Hijack{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSBqs7OM7SCAfGPt7yqTAdN2_btnIUsE_T1zrFHCBaK_tGpjSNYa1mGsELqnO0Yf2BCUtcXZKqqWQOKVjUnugX66wm3LxyQcnPjC.jpg?r=180);
     background-size: cover;
     background-position: center center;
     max-width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.Damsel{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABS1t4C5J653MbQxVtFQY06RADx_rfa0E0c9WTqMz2Gch8zvVgj2u39MhRGW0ROG7GqTUQx6Y7DtlJ5ItwzRnbTkRjIXqfnkcQZse.jpg?r=6ff&quot;);
+.jagame{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcVJgNtIJOatgX-0MOYfdS1JUxRdIp1IW94WWKTPpP1kuntqk1SIoKo0JIZRKPIblow3Fuq0Ix5FB1LAxD-xcouFctS6cyDQ_VJX.jpg?r=015);
     background-size: cover;
     background-position: center center;
     max-width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.NowWhere{
+.loveisblind{
     background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
     background-size: cover;
     background-position: center center;
@@ -450,7 +462,7 @@ nav .action .signin:hover{
     background-repeat: no-repeat;
     height: 100vh;
 }
-.JaaneJaan{
+.breathless{
     background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
     background-size: cover;
     background-position: center center;
@@ -458,120 +470,56 @@ nav .action .signin:hover{
     background-repeat: no-repeat;
     height: 100vh;
 }
-.Hunger{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
+.Deliverance{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABc9QYvP_XSSQXZD2AXyiJ7CR2y3GB1StDGF-YX-puyPcoQvhApb4n5HH6ZG9t1CtDMlAdIEBX3lJTMMKxPC6hjYZZfdF4yFNF_FT.jpg?r=70e);
     background-size: cover;
     background-position: center center;
     max-width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.LeavetheWorldBehind{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
+.kaos{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbuQrl0OBmGFzvVrQE3l-zawyXISbu5_ZihpHMHHtxl0JO-YHZsJbtH6JfWTt_kHoCthL_WMnzvlWgSVBOtEC9lwLZbhrJOxthGw.jpg?r=b5d);
     background-size: cover;
     background-position: center center;
     max-width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.ArmyofThieves{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
+.terminator{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABad_AKeeU8tamLibjjxpTH31iijC_3DGqg-PC_t4pO12ZOZ4Z2HCbcg76RBhD4B0Zucks0pvppy8Jfzq60g8zk12ni8EGEU062vj.jpg?r=6cb);
     background-size: cover;
     background-position: center center;
     max-width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.TheKiller{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
+.worstexever{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXBcMAkS3OzXPdsJdWKVrstBOUeC39d4duBlYTOvM86gySqp5ZvvinqcgcbKnyiAnKEbchx_4w0_iXfcFDsL8ziaDGipndsj8iWA.jpg?r=889);
     background-size: cover;
     background-position: center center;
     max-width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.Paradise{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
+.chastityhigh{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaZrl89BWlyTmhR0kHmq7Y4LuxHBkM2YSEwoQXh8yOkadDb94p7w2141XwOu_m0eUnEknJJz8xQRBj_fQJz_RZNIokqfbSY9K7LX.jpg?r=bfa);
     background-size: cover;
     background-position: center center;
     max-width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.MrsSerialKiller{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
+.untamedroyals{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABev4SwSpX8OOjhvMd5YguxrZfiCfS5RKCjWBmjPiDjWA1BCyiqFL63r2hfroW0WTNM10-zqcX-jvrPAd1CwbXgiBAcPuuRjIjxGz.jpg?r=380);
     background-size: cover;
     background-position: center center;
     max-width: 100%;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.h{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-.h{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-.h{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-.h{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-.h{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-.h{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-.h{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-.h{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
-    background-size: cover;
-    background-position: center center;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-.h{
-    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url();
+.represent{
+    background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.91) 25%,hsla(0,0%,9%,.96) 35%,hsla(0,0%,9%,.85) 40%,hsla(0,0%,9%,.74) 45%,hsla(0,0%,9%,.8) 50%,hsla(0,0%,9%,.55) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.52) 65%,hsla(0,0%,9%,.259) 70%,hsla(0,0%,9%,.175) 80%,hsla(0,0%,9%,.104) 85%,hsla(0,0%,9%,.049) 90%,hsla(0,0%,9%,.013) 95%,hsla(0,0%,9%,0) 20%), url(https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABVhgUmWzyovUyoRdIXvbS3Ik3VlBNTpxxbuweIaZ-VBdvcYyJHMCH26DRHPk3BAVX9YbT-v1beuGIrQrf6T-SS_7sRzF2rGroEIf.jpg?r=d77);
     background-size: cover;
     background-position: center center;
     max-width: 100%;
@@ -582,10 +530,12 @@ nav .action .signin:hover{
 .bannercontent .bannertitle img{
     object-fit: contain;
     max-width: 40%;
+    margin-top: 160px;
+    
 }
 
 .bannercontent{
-    padding: 11% 6%;
+    padding: 5% 6%;
 }
 
 .bannercontent .bannertitle h1{
@@ -610,7 +560,7 @@ nav .action .signin:hover{
     font-weight: 300;
     line-height: 22px;
     max-width: 43%;
-    padding: 15px 5px;
+    padding: 15px 5px ;
 }
 
 .bannercontent .bannertitle span{
